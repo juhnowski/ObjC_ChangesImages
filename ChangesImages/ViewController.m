@@ -26,4 +26,27 @@
 }
 
 
+- (IBAction)show1:(id)sender {
+    self.imageView.image = [UIImage imageNamed:@"pic1.jpeg"];
+}
+
+- (IBAction)show2:(id)sender {
+    self.imageView.image = [UIImage imageNamed:@"pic2.jpeg"];
+}
+
+- (IBAction)show3:(id)sender {
+    self.imageView.image = [UIImage imageNamed:@"pic3.jpeg"];
+}
+
+- (IBAction)show4:(id)sender {
+    self.imageView.image = [UIImage imageNamed:@"pic4.jpeg"];
+}
+
+- (IBAction)show5:(id)sender {
+    self.imageView.image = [UIImage imageNamed:@"pic5.jpeg"];
+}
+
+- (IBAction)show6:(id)sender {
+    self.imageView.image = [UIImage imageNamed:@"pic6.jpeg"];
+}
 @end
